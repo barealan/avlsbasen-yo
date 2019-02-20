@@ -21,7 +21,6 @@ section {
 	background-image: url(/img/pote.png);
 	height: 180vw;
 	width: 100%;
-	overflow: hidden;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -288,7 +287,6 @@ option{
 #sg_avlspartner.html {}
 
 #scroll{
-  overflow: scroll;
 }
 
 #scroll p{
