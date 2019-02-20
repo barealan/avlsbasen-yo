@@ -16,15 +16,22 @@ p {
     text-align: center;
     font-family: Helvetica, sans-serif;
 }
+
 @font-face {
-  font-family: 'hero';
-  src:  url('fonts/HeroLight-Regular.ttf') format('ttf'),
+    font-family: 'hero';
+    src: url('fonts/HeroLight-Regular.ttf') format('ttf'),
         url('fonts/HeroLight-Regular.otf') format('otf');
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'hero', sans-serif;
 }
+
 section {
     background-image: url(/img/pote.png);
     height: 180vw;
@@ -273,8 +280,8 @@ option {
     color: white;
 }
 
-#bt-div p{
-      color: white;
+#bt-div p {
+    color: white;
 }
 
 #next {
@@ -569,7 +576,8 @@ option {
 
 }
 
-#animals-kontakt, #animals-kontakt2 {
+#animals-kontakt,
+#animals-kontakt2 {
     text-align: center;
     font-size: 15px;
     color: #58c4c8;
