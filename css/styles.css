@@ -502,7 +502,8 @@ option {
 
 #add-to-favorite,
 #add-to-favorite2,
-#add-to-favorite3 {
+#add-to-favorite3,
+#add-to-favorite4 {
     width: 40px;
     display: block;
     position: fixed;
