@@ -118,7 +118,7 @@ a {
 
 /*---------- menu bar slider -------------*/
 .center {
-    color: var(--main-color);
+    color: rgb(186, 228, 213);
     text-decoration: underline;
     text-align: center;
     height: 70px;
