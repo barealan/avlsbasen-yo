@@ -61,21 +61,28 @@ function btnalert1() {
   confirmButtonClass: 'btn btn-success',
   cancelButtonClass: 'btn btn-danger',
   buttonsStyling: false,
+
 })
 
 swalWithBootstrapButtons.fire({
-  title: 'Skriv en kommentar',
+  title: 'Skriv en anbefaling',
   input: 'text',
-  type: 'warning',
+  imageUrl: 'img/bubble.png',
   confirmButtonText: 'Send',
   reverseButtons: true
 }).then((result) => {
   if (result.value) {
     swalWithBootstrapButtons.fire(
-      'Sendt!',
+	
+	  'Sendt!',
       ' ',
       'success'
-    )
+		
+	);
+	  setTimeout(function(){ 
+	  	swalWithBootstrapButtons.close();
+	  }, 1500);
+	  
   } 
 })
 }
