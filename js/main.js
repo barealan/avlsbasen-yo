@@ -107,13 +107,3 @@ function btnalert3() {
 		showConfirmButton: false,
     })
 }
-
-// track width, set to window width
-var width = $(window).width(); 
-
-// fire on window resize
-$(window).resize(function() {
-    // do nothing if the width is the same
-    if ($(window).width()==width) return; 
-    // ... your code
-});

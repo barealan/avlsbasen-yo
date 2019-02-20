@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
     <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
     <script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 </head>
 
 <body>
@@ -179,7 +181,7 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
-      <section class="grad-back">
+      <div class="grad-back">
 
 
 
@@ -249,11 +251,12 @@
                 </div>
                 <div id="bt-div">
                 <button id="next" onclick="fn.load('profil.html')">Opret dyr</button>
-                <p onclick="fn.load('profil.html')">Opret senere <i class="fa fa-angle-right"></i></p>
+
                 </div>
+                <p onclick="fn.load('profil.html')"> Opret senere <i class="fa fa-angle-right"></i></p>
 
               </form>
-              </section>
+            </div>
 
 
         </ons-page>
@@ -274,7 +277,9 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
+
             <h3 id="comingSoon">Coming Soon!</h3>
+
         </ons-page>
     </template>
 
@@ -417,7 +422,11 @@
 
                 <h2 id="animal-info">Information</h2>
 
+
                 <p class="persona-p2">Lucky er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+
+                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdomme. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+
 
                 <div onclick="fn.load('profil.html')" tappable>
                    <i id="icon-comment" class="fas fa-comment fa-3x"></i>
@@ -433,7 +442,7 @@
 
         </ons-page>
     </template>
-    
+
     <!---til her!!!!!!!!!--->
 
 	<!--------------- EJERS PROFIL --------------------->
@@ -609,7 +618,7 @@
 
                 <h2 id="animal-info">Information</h2>
 
-                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdomme. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
 
                 <div onclick="fn.load('ejer-profil.html')" tappable>
                    <i id="icon-comment" class="fas fa-comment fa-3x"></i>
