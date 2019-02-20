@@ -97,7 +97,6 @@ a {
 .profilikon {
     padding: 5px 10px 0px 0px;
     color: white;
-    position: right;
     display: block
 }
 
@@ -120,7 +119,7 @@ a {
 /*---------- menu bar slider -------------*/
 .center {
     color: var(--main-color);
-    text-decoration-line: underline;
+    text-decoration: underline;
     text-align: center;
     height: 70px;
 
@@ -282,7 +281,6 @@ option {
 
 #hund {
     background-color: transparent !important;
-    height:
 }
 
 
@@ -328,7 +326,7 @@ option {
     justify-content: space-between;
     margin-left: 5px;
     margin-right: 5px;
-    color: var(--button-color);
+    color: rgb(86, 195, 199);
     margin-top: -10px;
     margin-bottom: 15px;
 }
@@ -340,7 +338,7 @@ option {
     background-color: rgb(255, 255, 255, 0.9);
     padding: 8px;
     border-radius: 10px;
-    color: var(--button-color);
+    color: rgb(86, 195, 199);
     font-size: 16px;
 }
 
@@ -355,12 +353,12 @@ option {
 
 #barSearch {
     margin-right: 15px;
-    color: var(--main-color);
+    color: rgb(186, 228, 213);
 
 }
 
 #filterButton {
-    background-color: var(--button-color);
+    background-color: rgb(255, 255, 255, 0.9);
     width: 100px;
     height: 40px;
     border-radius: 10px;
