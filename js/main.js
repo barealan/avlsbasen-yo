@@ -57,16 +57,27 @@ let showToast = function () {
 
 // alert buttons
 function btnalert1() {
-    Swal.fire({
-        title: 'Fedt!',
-        text: 'Du kommenteret på brugerens profil?',
-        imageUrl: 'img/speech-bubble.png',
-        imageWidth: 400,
-        imageHeight: 200,
-        animation: false,
-		timer: 1500,
-		showConfirmButton: false,
-    })
+    const swalWithBootstrapButtons = Swal.mixin({
+  confirmButtonClass: 'btn btn-success',
+  cancelButtonClass: 'btn btn-danger',
+  buttonsStyling: false,
+})
+
+swalWithBootstrapButtons.fire({
+  title: 'Skriv en kommentar',
+  input: 'text',
+  type: 'warning',
+  confirmButtonText: 'Send',
+  reverseButtons: true
+}).then((result) => {
+  if (result.value) {
+    swalWithBootstrapButtons.fire(
+      'Sendt!',
+      ' ',
+      'success'
+    )
+  } 
+})
 }
 
 function btnalert2() {
