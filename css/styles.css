@@ -550,7 +550,7 @@ option {
 
 
 #comingSoon {
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.9);
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -558,4 +558,5 @@ option {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
