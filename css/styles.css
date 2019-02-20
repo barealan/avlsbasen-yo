@@ -263,6 +263,11 @@ option {
     width: 160px;
     margin-bottom: 5%;
     margin-top: 15%;
+    color: white;
+}
+
+#bt-div p{
+      color: white;
 }
 
 #next {
