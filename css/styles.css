@@ -435,6 +435,9 @@ option {
 }
 
 #icon-comment,
+#icon-comment2,
+#icon-comment3,
+#icon-comment4,
 #icon-heart,
 #icon-star {
     background: linear-gradient(45deg, #39afc0 0%, #59e29e 65%);
@@ -501,7 +504,8 @@ option {
     color: white;
 }
 
-#show-owner {
+#show-owner,
+#show-owner2 {
     display: block;
     position: fixed;
     margin: -120px 0 0 320px;
@@ -513,7 +517,8 @@ option {
 }
 
 
-#dog-image {
+#dog-image,
+#dog-image2 {
     display: block;
     position: fixed;
     margin: -70px 0 0 40px;
@@ -521,14 +526,16 @@ option {
     width: 80%;
 }
 
-#animals-headline {
+#animals-headline,
+#animals-headline2 {
     text-align: center;
     margin: 190px 0 0 0;
     font-size: 25px;
     color: #58c4c8;
 }
 
-#animal-info {
+#animal-info,
+#animal-info2 {
     float: left;
     font-size: 20px;
     margin-left: 30px;
@@ -547,7 +554,7 @@ option {
 
 }
 
-#animals-kontakt {
+#animals-kontakt, #animals-kontakt2 {
     text-align: center;
     font-size: 15px;
     color: #58c4c8;
