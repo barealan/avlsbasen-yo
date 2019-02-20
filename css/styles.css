@@ -14,9 +14,12 @@ body {
 p {
     color: white;
     text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: 
+}
 section {
     background-image: url(/img/pote.png);
     height: 180vw;
