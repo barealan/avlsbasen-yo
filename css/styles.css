@@ -21,6 +21,7 @@ section {
 	background-image: url(/img/pote.png);
 	height: 180vw;
 	width: 100%;
+	overflow: scroll;
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -282,15 +283,11 @@ option{
 
 
 
-
 /**---------søge avlspartner siden---------**/
 #sg_avlspartner.html {}
 
 #scroll{
-}
-
-#scroll p{
-  color: rgb(86, 195, 199);
+  overflow: scroll;
 }
 
 #gridAnimals {
