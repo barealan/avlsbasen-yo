@@ -404,7 +404,8 @@ option {
 
 }
 
-#persona-name {
+#persona-name,
+#persona-name2 {
     text-align: center;
     font-size: 25px;
     color: #58c4c8;
@@ -439,7 +440,9 @@ option {
 #icon-comment3,
 #icon-comment4,
 #icon-heart,
-#icon-star {
+#icon-heart2,
+#icon-star,
+#icon-star2 {
     background: linear-gradient(45deg, #39afc0 0%, #59e29e 65%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -450,6 +453,7 @@ option {
     color: #58c4c8;
 }
 
+#oversigt,
 #oversigt {
     float: left;
     font-size: 20px;
@@ -488,7 +492,9 @@ option {
 
 }
 
-#go-back {
+#go-back,
+#go-back2,
+#go-back3 {
     width: 40px;
     display: block;
     position: fixed;
@@ -496,7 +502,9 @@ option {
     color: white;
 }
 
-#add-to-favorite {
+#add-to-favorite,
+#add-to-favorite2,
+#add-to-favorite3 {
     width: 40px;
     display: block;
     position: fixed;
