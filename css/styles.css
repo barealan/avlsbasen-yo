@@ -554,7 +554,7 @@ option {
 }
 
 
-#comingSoon {
+.comingSoon {
     background-color: rgb(255, 255, 255, 0.9);
     padding: 20px;
     text-align: center;
