@@ -201,7 +201,7 @@ text-align: center;
   margin-bottom: 5px;
 }
 
-#genderbox {
+.genderbox {
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -273,7 +273,6 @@ option{
   border: none;
   color: rgb(86, 195, 199);
   background-color: white;
-  opacity: 0.7;
 }
 
 

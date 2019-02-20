@@ -17,7 +17,7 @@ window.fn.load = function (page) {
 var content = document.querySelector('ons-splitter-content');
 
 content.load('logud.html');
-//listen af hunde 
+//listen af hunde
 
 fetch('json/data.json')
     .then(function (response) {
@@ -35,7 +35,7 @@ function appendAnimals(animals) {
         htmlTemplate += `<div>
             <div class="imgContainer"><span onclick="fn.load('dyrprofil.html')" tappable><img src="img/${animal.img}"></span></div>
             <h3>${animal.name}</h3>
-            <div class="textContainer"> 
+            <div class="textContainer">
             <p>${animal.race}</p>
             <p>${animal.age}</p></div>
             </div>`;
@@ -76,7 +76,7 @@ swalWithBootstrapButtons.fire({
       ' ',
       'success'
     )
-  } 
+  }
 })
 }
 
@@ -102,4 +102,24 @@ function btnalert3() {
 		timer: 1500,
 		showConfirmButton: false,
     })
+}
+
+
+//OPRET DYR
+
+function checkform()
+{
+    let f = document.forms["form"].elements;
+    let cansubmit = true;
+
+    for (let i = 0; i < f.length; i++) {
+        if (f[i].value.length == 0) cansubmit = false;
+    }
+
+    if (cansubmit) {
+        document.getElementById('next').disabled = false;
+    }
+    else {
+        document.getElementById('next').disabled = 'disabled';
+    }
 }

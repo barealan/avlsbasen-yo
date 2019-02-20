@@ -204,10 +204,10 @@
 
               <div id="option-oth"><p>Andre dyrearter?</p></div>
 
-              <div id="form">
+              <form id="form" name="form">
                 <p>Opret med chipnummer</p>
                 <input class="sog" id="myTextBox" type="text" value="&nbsp;&nbsp;">
-                <div id="genderbox">
+                <div class="genderbox">
                 <div class="gender" tappable>
                   <p>Hanhund</p>
                 </div>
@@ -216,7 +216,7 @@
                 </div>
                 </div>
 
-                <div id="genderbox">
+                <div class="genderbox">
                 <select class="selector" id="race" style="display: block;">
                   <option value="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Race</option>
                 <option class="select-item" value="Aarhus"> Aarhus </option>
@@ -237,11 +237,11 @@
                 </select>
                 </div>
                 <div id="bt-div">
-                <button id="next" disabled>Opret profil</button>
-                <p>Opret senere <i class="fa fa-angle-right"></i></p>
+                <button id="next" onclick="fn.load('profil.html')">Opret dyr</button>
+                <p onclick="fn.load('profil.html')">Opret senere <i class="fa fa-angle-right"></i></p>
                 </div>
 
-              </div>
+              </form>
 
               <ons-checkbox input-id="check-1"></ons-checkbox>
                     </label>
