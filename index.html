@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <!---Gertrud arbejder her!!!!!!!!!--->
+   
     <ons-splitter>
         <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
             <ons-page>
@@ -47,10 +47,10 @@
         </ons-splitter-side>
         <ons-splitter-content id="content" page="home.html"></ons-splitter-content>
     </ons-splitter>
-    <!---til her!!!!!!!!!--->
+   
 
 
-    <!---Isabella arbejder her!!!!!!!!!--->
+    <!--søg avlspartner-->
     <template id="sg_avlspartner.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -75,9 +75,9 @@
             </section>
         </ons-page>
     </template>
-    <!---til her!!!!!!!!!--->
+    
 
-    <!---alan arbejder her!!!!!!!!!--->
+    <!--Profil-->
     <template id="profil.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -165,7 +165,7 @@
 </ons-page>
 </template>
 
-
+<!-- Opret dyr -->
     <template id="opret_dyr.html">
         <ons-page id="opret">
             <ons-toolbar class="toolbar">
@@ -261,7 +261,7 @@
 
         </ons-page>
     </template>
-
+<!--Indbakke -->
     <template id="indbakke.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -277,14 +277,12 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
-<<<<<<< HEAD
 
-=======
-            <h3 id="comingSoon">Coming Soon!</h3>
->>>>>>> c06ee4ea100922cb3093900e0a6d98fd9a11d0ff
+            <h3 class="comingSoon">Coming Soon!</h3>
+
         </ons-page>
     </template>
-
+<!-- indstillinger -->
     <template id="indstillinger.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -300,10 +298,10 @@
                    <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
-            <h3 id="comingSoon">Coming Soon!</h3>
+            <h3 class="comingSoon">Coming Soon!</h3>
         </ons-page>
     </template>
-
+<!-- Om appen -->
     <template id="omappen.html" class="page">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -319,10 +317,10 @@
                     <span class="profilikon" onclick="fn.load('profil.html')"><i class="fas fa-user-circle fa-2x"></i></span>
                 </div>
             </ons-toolbar>
-            <h3 id="comingSoon">Coming Soon!</h3>
+            <h3 class="comingSoon">Coming Soon!</h3>
         </ons-page>
     </template>
-
+<!--Log out-->
     <template id="logud.html" class="page">
         <ons-page>
         <section>
@@ -345,16 +343,12 @@
             <p>Glemt kodeord?</p>
 			</a>
 
-
-
 </section>
         </ons-page>
     </template>
 
-
-
-    <!------------- DYR PROFIL --------------------->
-    <!---alan arbejder her!!!!!!!!!--->
+    <!-- DYR PROFIL Lucky -->
+    
     <template id="dyrprofil.html" class="page">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -402,7 +396,7 @@
 
 
 <div>
-	<a href="#" onclick="fn.load('profil.html')"tappble>
+	<a href="#" onclick="fn.load('profil.html')" tappble>
                         <button id="show-owner">Vis ejeren</button>
                     </a>
 
@@ -424,13 +418,17 @@
 
                 <h2 id="animal-info">Information</h2>
 
-                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+
+                <p class="persona-p2">Lucky er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+
+                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdomme. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+
 
                 <div onclick="fn.load('profil.html')" tappable>
-                   <i id="icon-comment" class="fas fa-comment fa-3x"></i>
+                   <i id="icon-comment2" class="fas fa-comment fa-3x"></i>
 
 
-                    <h3 id="animals-kontakt">Kontakt ejeren</h3>
+                    <h3 id="animals-kontakt2">Kontakt ejeren</h3>
 
 
                 </div>
@@ -441,9 +439,9 @@
         </ons-page>
     </template>
 
-    <!---til her!!!!!!!!!--->
+   
 
-	<!--------------- EJERS PROFIL --------------------->
+	<!-- EJERS PROFIL -->
     <template id="ejer-profil.html">
         <ons-page>
             <ons-toolbar class="toolbar">
@@ -499,7 +497,7 @@
 
     <div class="icons">
         <a href="#" onclick="btnalert1();">
-                        <i id="icon-comment" class="fas fa-comment fa-3x"></i>
+                        <i id="icon-comment3" class="fas fa-comment fa-3x"></i>
                     </a>
 
         <p class="feedbacks">36</p>
@@ -545,14 +543,13 @@
 </ons-page>
 </template>
 
-
-<!-- her er profilen for ejeren hund molly -->
+<!--DYr Profil for ejeren Molly-->
 <template id="ejersdyrprofil.html" class="page">
         <ons-page>
             <ons-toolbar class="toolbar">
                 <div class="left">
                     <ons-toolbar-button class="menubars" onclick="fn.open()">
-                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-¡bars"></i>
                     </ons-toolbar-button>
                 </div>
                 <div class="center">
@@ -595,7 +592,7 @@
 
 <div>
 	<a href="#" onclick="fn.load('ejer-profil.html')"tappble>
-                        <button id="show-owner">Vis ejeren</button>
+                        <button id="show-owner2">Vis ejeren</button>
                     </a>
 
 </div>
@@ -606,20 +603,20 @@
 
 
 <div>
-            <img id="dog-image" src="img/cairnterrier.jpeg" alt="billede af en hund">
+            <img id="dog-image2" src="img/cairnterrier.jpeg" alt="billede af en hund">
  </div>
 
-                <h1 id="animals-headline">Molly</h1>
+                <h1 id="animals-headline2">Molly</h1>
                 <p class="persona-p">Den mest loyale hund i hele verden</p>
 
 
 
-                <h2 id="animal-info">Information</h2>
+                <h2 id="animal-info2">Information</h2>
 
-                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdommen. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
+                <p class="persona-p2">Molly er 2 år gammel og er født i Tyskland, men opvokset i danske jord. Hun er ifølge dyrlægen meget rask og fri for sygdomme. <br> Er molly noget for dig? så kontakt mig gennem appen eller på tlf. 42 58 79 62  </p>
 
                 <div onclick="fn.load('ejer-profil.html')" tappable>
-                   <i id="icon-comment" class="fas fa-comment fa-3x"></i>
+                   <i id="icon-comment4" class="fas fa-comment fa-3x"></i>
 
 
                     <h3 id="animals-kontakt">Kontakt ejeren</h3>
@@ -634,12 +631,9 @@
     </template>
 
 
-
-
-
-
     <!-- main js file -->
     <script src="js/main.js"></script>
+	<!-- Sweet alert 2-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </body>
 
