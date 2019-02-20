@@ -58,22 +58,18 @@ let showToast = function () {
 
 // alert buttons
 function btnalert1() {
-    const swalWithBootstrapButtons = Swal.mixin({
-  confirmButtonClass: 'btn btn-success',
-  cancelButtonClass: 'btn btn-danger',
-  buttonsStyling: false,
+    
 
-})
-
-swalWithBootstrapButtons.fire({
+swal.fire({
   title: 'Skriv en anbefaling',
   input: 'text',
   imageUrl: 'img/bubble.png',
   confirmButtonText: 'Send',
+	confirmButtonColor: '#58c4c8',
   reverseButtons: true
 }).then((result) => {
   if (result.value) {
-    swalWithBootstrapButtons.fire(
+    swal.fire(
 	
 	  'Sendt!',
       ' ',
@@ -81,7 +77,7 @@ swalWithBootstrapButtons.fire({
 		
 	);
 	  setTimeout(function(){ 
-	  	swalWithBootstrapButtons.close();
+	  	swal.close();
 	  }, 1500);
 	  
   } 
