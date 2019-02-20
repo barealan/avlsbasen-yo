@@ -28,6 +28,10 @@ section {
 	position: fixed;
 }
 
+.grad-back{
+  background: linear-gradient(45deg, #59e29e 0%, #39afc0 50%, #78e3d0 100%);
+}
+
 .logofront {
 	height: 80px;
 	margin-top: 5%;
@@ -288,6 +292,10 @@ option{
 
 #scroll{
   overflow: scroll;
+}
+
+#scroll p{
+    color: rgb(86, 195, 199) !important;
 }
 
 #gridAnimals {
